@@ -1,0 +1,353 @@
+*{
+  font-family: 'Noto Serif JP', serif;
+}
+
+@media screen and (min-width: 376px) {
+  .sp{
+    display: none;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #555;
+  overflow-x:hidden;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/bg.png");
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.home_icon{
+  margin: 0.5%;
+  width: 12%;
+  position: fixed;
+  z-index: 5;
+}
+.home_icon:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.contact_twitter_icon:hover{
+  transform: scale(1.1, 1.1);
+}
+.contact_instagram_icon:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.link_icon{
+  text-align: right;
+  float: left;
+  position: fixed;
+  padding:1px;
+  z-index: 5;
+}
+
+.twitter_icon{
+  margin: 1%;
+  width: 5%;
+}
+.twitter_icon:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.instagram_icon{
+  margin: 1%;
+  width: 5%;
+}
+.instagram_icon:hover{
+  transform: scale(1.1, 1.1);
+}
+
+.scroll_icon{
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  position: fixed;
+  z-index: 5;
+  
+}
+
+.main_v{
+  margin:0;
+  padding:0;
+  line-height:0;
+  font-size:0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.box4 {
+  height: 50%;
+  margin:0;
+  padding:0;
+  line-height:0;
+  font-size:0;
+  position: fixed;
+}
+
+.slide_v{
+  width:100%;
+}
+
+.gr{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.plofile_title{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  position: fixed;
+  z-index: 4;
+  font-size: 2.5rem;
+  padding-left: 3rem;
+}
+
+.plofile_comment{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  position: fixed;
+  z-index: 4;
+  font-size: 1rem;
+  padding-left: 4rem;
+}
+
+.plofile_bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  background-color: black;
+}
+
+.work_v{
+  width: 50%;
+}
+
+.contact{
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  text-align: center;
+}
+
+.contact_twitter_icon{
+  width: 10%;
+}
+
+.contact_instagram_icon{
+  width: 10%;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+  .pc{
+    display: none;
+  }
+
+  *,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  color: #555;
+  overflow-x:hidden;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/bg.png");
+}
+
+h2{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+p{
+  font-size: 0.5rem;
+  color: #fff;
+}
+
+.home_icon{
+  margin: 0.5%;
+  width: 20%;
+  position: fixed;
+  z-index: 5;
+}
+
+.link_icon{
+  text-align: right;
+  float: left;
+  position: fixed;
+  z-index: 5;
+}
+
+.twitter_icon{
+  margin: 1%;
+  width: 10%;
+}
+
+.instagram_icon{
+  margin: 1%;
+  width: 10%;
+}
+
+.scroll_icon{
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  position: fixed;
+  z-index: 5;
+  
+}
+
+.main_v{
+  margin:0;
+  padding:0;
+  line-height:0;
+  font-size:0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.box4 {
+  height: 50%;
+  margin:0;
+  padding:0;
+  line-height:0;
+  font-size:0;
+  position: fixed;
+}
+
+.slide_v{
+  height: 100%;
+}
+
+.gr{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.plofile_v{
+  height: 200%;
+}
+
+.plofile_title{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  padding: 0;
+}
+
+.plofile_comment{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  padding: 0;
+}
+
+.plofile_bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  background-color: black;
+}
+
+.work_v{
+  height: 100%;
+}
+
+.contact{
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  text-align: center;
+}
+
+.contact_twitter_icon{
+  width: 15%;
+}
+
+.contact_instagram_icon{
+  width: 15%;
+}
+
+.sign_c{
+    width: 80%;
+}
+
+.footer{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+}
+}
+
+
+
+

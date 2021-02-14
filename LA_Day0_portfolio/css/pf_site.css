@@ -1,5 +1,48 @@
 *{
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.scroll_bar{
+  display: inline-block;
+  position: absolute;
+  text-transform: uppercase;
+  text-decoration: none;
+  writing-mode: vertical-lr;
+  color: #fff;
+}
+
+a .scroll_bar {
+  display: inline-block;
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  z-index: 2;
+  padding: 10px 10px 110px;
+  overflow: hidden;
+  font-size: 14px;
+
+  line-height: 1;
+  letter-spacing: .2em;
+
+}
+
+a ::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: #fff;
+  height: 30px;
+  animation: sdl 1.5s ease infinite;
+}
+@keyframes sdl {
+  0% {
+    transform: translateY(-70px);
+  }
+  50%, 100% {
+    transform: translateY(30px);
+  }
 }
 
 @media screen and (min-width: 376px) {
